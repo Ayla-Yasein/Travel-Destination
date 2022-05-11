@@ -7,6 +7,16 @@ ul {
 
 li {
   list-style: none;
+  width: 20rem;
+  height: 20rem;
+  background-color: #f2f4f8;
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px 2px #888888;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 10000;
 }
 
 .card {
@@ -26,10 +36,26 @@ li {
   text-align: center;
   margin-top: 5%;
   margin-right: 4%;
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 4%;
+  font-size: 2rem;
 }
 
 .card img {
   width: 70px;
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
+  width: 20rem;
+  height: 14rem;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.bodyImg {
+  width: 30%;
+}
+
+p {
+  font-size: 2rem;
 }

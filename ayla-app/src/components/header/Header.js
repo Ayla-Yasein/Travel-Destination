@@ -1,4 +1,4 @@
-import classes from "./Header.module.css";
+import classes from "./Header.css";
 import logoImage from "../../assets/logo.png";
 
 const Header = () => {

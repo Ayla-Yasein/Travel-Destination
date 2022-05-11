@@ -1,15 +1,12 @@
-import classes from "./Tours.module.css";
+import "./Tours.css";
+function Tours(props) {
+  return (
+    <div>
+      <img src={props.image} alt={props.alt} />
+      <p>{props.title} </p>
 
-const Tours = (props) => {
-  let travelDestinations = props.data.map((ele) => {
-    return (
-      <li className={classes.card} key={ele.id}>
-        <h1>{ele.name}</h1>
-        <img src={ele.image} alt={`A tour in ${ele.name}`} />
-      </li>
-    );
-  });
-  return <ul>{travelDestinations}</ul>;
-};
-
+      <br />
+    </div>
+  );
+}
 export default Tours;

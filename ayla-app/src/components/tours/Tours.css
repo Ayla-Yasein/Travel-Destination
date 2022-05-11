@@ -29,8 +29,7 @@ li {
 }
 
 .card img {
-  width: 20rem;
-  height: 14rem;
+  width: 70px;
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
 }

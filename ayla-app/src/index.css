@@ -9,6 +9,12 @@
 
 body {
   background: #eef4ef;
+  text-align: center;
+  display: flexbox;
 }
 
+img{
+  width: 50%;
+  height: auto;
+}
 

@@ -1,18 +1,19 @@
 footer {
   height: 15vh;
-  background-color: #018ab3;
-  color: aliceblue;
+  background-color: #72fc53;
+  color: rgb(84, 84, 84);
   text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  box-shadow: 5px 0px 2px 2px #888888;
 }
 
 footer a {
   margin-right: 1rem;
 }
 
-img {
+footer img {
   width: 2.5rem;
   height: 2.5rem;
 }

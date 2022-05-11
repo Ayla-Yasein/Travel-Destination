@@ -7,10 +7,10 @@ const Footer = () => {
     <footer className={classes.footer}>
       <h3>A Porject by yasein burqan and sohaib almomani&copy;</h3>
       <div>
-        <a href="#">
+        <a href="http://www.facebook.com/" target="_blank" rel="noReferrer">
           <img src={facebook} />
         </a>
-        <a href="#">
+        <a href="http://www.instagram.com/" target="_blank" rel="noReferrer">
           <img src={instagram} />
         </a>
       </div>

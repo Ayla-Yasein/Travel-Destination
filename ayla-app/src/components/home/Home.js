@@ -1,18 +1,19 @@
 import "./Home.css";
 import "../footer/Footer";
 import "../header/Header";
-import "../tours/Tours";
+import "../tours/tour/Tour";
 import Header from "../header/Header";
-import Tours from "../tours/Tours";
 import Footer from "../footer/Footer";
+import Tour from "../tours/tour/Tour";
 import data from "../../data/db.json";
 
 function Home(props) {
   return (
     <>
-      <Header />
+      <Header title="Travel Destination" />
+      <p>Welcome Home</p>
       {data.map((tour) => {
-        return <Tours image={tour.image} alt={tour.info} title={tour.name} />;
+        return <Tour image={tour.image} name={tour.name} id={tour.id} />;
       })}
 
       <Footer />
